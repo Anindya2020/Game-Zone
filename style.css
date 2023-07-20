@@ -1,0 +1,262 @@
+*{padding: 0;
+    margin: 0;
+
+}
+
+
+img{
+    max-width:100%;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+body{font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+background-color: #FFF;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px ;
+    
+}
+.section{
+    background: rgb(252, 252, 252);
+box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.05);
+height: 80px;
+padding: 30px;
+
+}
+.gamer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamer1{
+    margin-left: 10px;
+    font-size: 48px;
+}
+.about{
+display: flex;
+justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.dev{
+    margin-right: 10px;
+}
+.follow{
+    background-color: rgba(11, 2, 35, 0.10);;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0px 30px;
+}
+.second{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    margin-top: 100px;
+}
+.play{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-family: Work Sans;
+font-size: 95px; 
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+.click{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+text-transform: lowercase;
+padding-bottom: 30px;
+}
+.sign{
+    color: #FFF;
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+cursor: pointer;
+}
+.go{
+    color: #FFF;
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+cursor: pointer;
+
+}
+.boxrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.boxcover{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+ top: -100%;
+    position: absolute;
+    background-color:#00000038;
+
+    transition: 0.3s;
+
+} 
+
+.box:hover .boxcover{
+    top: 0px;
+
+}
+
+.btn{
+    margin-left: 150px;
+    margin-top: 150px;
+   width: 30px;
+}
+.Video{
+    color: #0B0223;
+    
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.videos{
+    color: #0B0223;
+margin: 50px 0px;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.collection{
+    text-align: center;
+
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.imginto{
+    position: absolute;
+    margin-top: 400px;
+    margin-left:800px;
+}
+.forthpart{
+    margin-top: 100px;
+}
+.fifthpart{
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 250px;  
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    cursor: pointer;
+}
+.action:hover{  
+    border-radius: 10px;
+    border: 2px solid purple;
+    padding: 10px;
+}
+.last{
+    margin-left: 750px;
+    
+}
+.story{
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px 300px;
+}
+.lastimg{
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px 500px;
+}
+.lastride{
+    display: flex;
+    color: #d3d3d3;
+    font-size: 15px;
+    padding-top: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px 600px;
+}
